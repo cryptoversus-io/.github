@@ -36,12 +36,14 @@ At CryptoVersus, we integrate blockchain technology in a cost-efficient and lega
 This approach empowers our clients and users to harness blockchain technology for managing and verifying real-world assets with trust, transparency, and operational excellence.
 
 ## Our Strategic Affiliation with AcmeWerx
-CryptoVersus is a proud subsidiary of AcmeWerx, a diversified technology enterprise. AcmeWerx began as an intellectual property holding company in October 2018—protecting innovations such as patent US9069626B2. Based on Dr. Whetsel’s Trusted Client-Centric Application Architecture (TC2A2), their UnsterWerx platform enables secure data exchange between applications by converting disparate data into a universal dataset for seamless sharing and manipulation via a single user interface. While AcmeWerx serves a broad range of sectors, CryptoVersus remains dedicated to advancing commercial WEB2 and WEB3 solutions.
+CryptoVersus is a wholly commercial subsidiary of AcmeWerx, a diversified technology enterprise. AcmeWerx began as an intellectual property holding company in October 2018—protecting innovations such as patent US9069626B2. Based on Dr. Whetsel’s Trusted Client-Centric Application Architecture (TC2A2), the UnsterWerx platform enables secure data exchange by converting disparate data into a universal dataset for seamless sharing and manipulation.  
+ 
+**Important:** AcmeWerx, not CryptoVersus, maintains government-approved services and compliance. CryptoVersus operates exclusively in the commercial space, leveraging AcmeWerx’s innovations and trusted partner network.
 
-## Our Partners
-We collaborate with leading innovators to enrich our technology ecosystem:
+## AcmeWerx’s Trusted Partners
+Through our affiliation with AcmeWerx, we benefit from a network of trusted partners who drive innovation and excellence:
 - **Bellwether Group**  
-  [![Bellwether Group Logo](https://github.com/user-attachments/assets/8ab1eff1-3f3f-4dca-be2c-864f797862e8)]([https://bellwethergroup.com](https://www.linkedin.com/company/the-bellwether-group-inc))
+  [![Bellwether Group Logo](https://github.com/user-attachments/assets/8ab1eff1-3f3f-4dca-be2c-864f797862e8)](https://www.linkedin.com/company/the-bellwether-group-inc)
 - **AcmeWerx Labs**  
   [![AcmeWerx Labs Logo](https://github.com/user-attachments/assets/3e0653eb-8f42-46f8-9f02-8efbf0f3de2f)](https://acmewerx.com)
 - **Bravura**  
