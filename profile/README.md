@@ -47,7 +47,7 @@ We collaborate with leading innovators to enrich our technology ecosystem:
 - **Bravura**  
   [![Bravura Logo](https://github.com/user-attachments/assets/6da0a73f-4995-4b38-8184-5c62fe0b78b1)](https://bravurainc.com/surveillance/)
 - **Velar Codex**  
-  [![Velar Codex Logo](https://github.com/user-attachments/assets/d07a9f53-f850-413f-b24f-58651864e703)]([https://velar.us])
+  [![Velar Codex Logo](https://github.com/user-attachments/assets/d07a9f53-f850-413f-b24f-58651864e703)](https://velar.us)
 - **GINKGO-AI**  
   [![GINKGO-AI Logo](https://github.com/user-attachments/assets/b408aae1-20e1-4a96-9b08-cc7b53d9cd3e)](https://www.ginkgo.bio/platform)
 
