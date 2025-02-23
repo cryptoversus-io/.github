@@ -1,4 +1,8 @@
-[<img src="https://storage.builderall.com//franquias/2/7304564/editor-html/12603172.svg" alt="CryptoVersus.io Powered by AcmeWerx" width="100%"/>](https://cryptoversus.io)
+<p align="center">
+  <a href="https://cryptoversus.io">
+    <img src="https://storage.builderall.com//franquias/2/7304564/editor-html/12603172.svg" alt="CryptoVersus.io Powered by AcmeWerx" width="100%"/>
+  </a>
+</p>
 
 # CryptoVersus
 
@@ -16,25 +20,31 @@ Welcome to CryptoVersus – where innovation meets execution. We craft cutting-e
 ---
 
 ## 💡 Building High-Converting Web2 Funnel Sites
-Our marketing-focused funnel sites are designed to capture attention and drive conversions. Our process includes:
+We specialize in designing marketing-focused Web2 funnel sites that capture attention and drive conversions. Our process includes:
 
-![Funnel Design](https://github.com/user-attachments/assets/d2b7bc75-cf40-4bb4-b4fb-57ec4b5ba50a)
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/d2b7bc75-cf40-4bb4-b4fb-57ec4b5ba50a" alt="Funnel Design">
+</p>
 
 - **Customized Funnel Design**: Tailored to your brand’s unique identity.
 - **Conversion Optimization**: Employing best practices and A/B testing to maximize lead capture.
 - **Integrated Marketing Strategy**: Aligning your funnel with SEO, PPC, social media, and more to drive quality traffic.
 - **Data-Driven Refinement**: Continuous optimization through advanced analytics.
 
-![Marketing Strategy](https://github.com/user-attachments/assets/c9033fe4-9201-4556-b0ee-d99e3b8fe4c3)
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/c9033fe4-9201-4556-b0ee-d99e3b8fe4c3" alt="Marketing Strategy">
+</p>
 
 Learn more about our approach at [cryptoversus.io](https://cryptoversus.io).
 
 ---
 
 ## 🔗 Blockchain Innovations for Real-World Asset Management
-We harness blockchain technology in a cost-efficient and legally compliant manner—transforming real-world assets into secure, digital representations that are:
+We harness blockchain technology in a cost-efficient, legally compliant manner—transforming real-world assets into secure, digital representations that are:
 
-![Blockchain Innovation](https://github.com/user-attachments/assets/e7195f7f-3786-40d2-8309-9a862ef8aa88)
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/e7195f7f-3786-40d2-8309-9a862ef8aa88" alt="Blockchain Innovation">
+</p>
 
 - **Cost Efficient**: Streamlined processes reduce overhead.
 - **Legally Compliant**: Adhering to regulatory standards for secure transactions.
@@ -55,13 +65,56 @@ CryptoVersus is a wholly commercial subsidiary of **AcmeWerx**, a diversified te
 ## 🤝 Our Trusted Partners
 Through our affiliation with AcmeWerx, we work with a network of trusted partners to enrich our technology ecosystem:
 
-| **Partner**           | **Link**                                                                                       |
-|-----------------------|------------------------------------------------------------------------------------------------|
-| **Bellwether Group**  | [![Bellwether](https://github.com/user-attachments/assets/8ab1eff1-3f3f-4dca-be2c-864f797862e8)](https://www.linkedin.com/company/the-bellwether-group-inc) |
-| **AcmeWerx Labs**     | [![AcmeWerx Labs](https://github.com/user-attachments/assets/3e0653eb-8f42-46f8-9f02-8efbf0f3de2f)](https://acmewerx.com)                   |
-| **Bravura**           | [![Bravura](https://github.com/user-attachments/assets/6da0a73f-4995-4b38-8184-5c62fe0b78b1)](https://bravurainc.com/surveillance/)      |
-| **Velar Codex**       | [![Velar Codex](https://github.com/user-attachments/assets/d07a9f53-f850-413f-b24f-58651864e703)](https://velar.us)                      |
-| **GINKGO-AI**         | [![GINKGO-AI](https://github.com/user-attachments/assets/b408aae1-20e1-4a96-9b08-cc7b53d9cd3e)](https://www.ginkgo.bio/platform)            |
+<div align="center">
+
+<table>
+  <tr>
+    <th>Partner</th>
+    <th>Logo</th>
+  </tr>
+  <tr>
+    <td><strong>Bellwether Group</strong></td>
+    <td>
+      <a href="https://www.linkedin.com/company/the-bellwether-group-inc">
+        <img src="https://github.com/user-attachments/assets/8ab1eff1-3f3f-4dca-be2c-864f797862e8" alt="Bellwether Group Logo" width="150"/>
+      </a>
+    </td>
+  </tr>
+  <tr>
+    <td><strong>AcmeWerx Labs</strong></td>
+    <td>
+      <a href="https://acmewerx.com">
+        <img src="https://github.com/user-attachments/assets/3e0653eb-8f42-46f8-9f02-8efbf0f3de2f" alt="AcmeWerx Labs Logo" width="150"/>
+      </a>
+    </td>
+  </tr>
+  <tr>
+    <td><strong>Bravura</strong></td>
+    <td>
+      <a href="https://bravurainc.com/surveillance/">
+        <img src="https://github.com/user-attachments/assets/6da0a73f-4995-4b38-8184-5c62fe0b78b1" alt="Bravura Logo" width="150"/>
+      </a>
+    </td>
+  </tr>
+  <tr>
+    <td><strong>Velar Codex</strong></td>
+    <td>
+      <a href="https://velar.us">
+        <img src="https://github.com/user-attachments/assets/d07a9f53-f850-413f-b24f-58651864e703" alt="Velar Codex Logo" width="150"/>
+      </a>
+    </td>
+  </tr>
+  <tr>
+    <td><strong>GINKGO-AI</strong></td>
+    <td>
+      <a href="https://www.ginkgo.bio/platform">
+        <img src="https://github.com/user-attachments/assets/b408aae1-20e1-4a96-9b08-cc7b53d9cd3e" alt="GINKGO-AI Logo" width="150"/>
+      </a>
+    </td>
+  </tr>
+</table>
+
+</div>
 
 ---
 
@@ -70,4 +123,8 @@ We are devoted to delivering effective, secure solutions that empower your busin
 
 **Let's Build the Future Together!**
 
-[![Visit our Website](https://img.shields.io/badge/Visit-CryptoVersus.io-blue)](https://cryptoversus.io)
+<p align="center">
+  <a href="https://cryptoversus.io">
+    <img src="https://img.shields.io/badge/Visit-CryptoVersus.io-blue" alt="Visit our Website"/>
+  </a>
+</p>
