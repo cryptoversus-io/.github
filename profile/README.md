@@ -32,11 +32,11 @@ Learn more about our approach at [cryptoversus.io](https://cryptoversus.io).
 ---
 
 ## 🔗 Blockchain Innovations for Real-World Asset Management
-We harness blockchain technology in a cost-efficient, legally compliant manner—transforming real-world assets into secure, digital representations that are:
+We harness blockchain technology in a cost-efficient and legally compliant manner—transforming real-world assets into secure, digital representations that are:
 
 ![Blockchain Innovation](https://github.com/user-attachments/assets/e7195f7f-3786-40d2-8309-9a862ef8aa88)
 
-- **Cost Efficient**: Streamlined processes that reduce overhead.
+- **Cost Efficient**: Streamlined processes reduce overhead.
 - **Legally Compliant**: Adhering to regulatory standards for secure transactions.
 - **Auditable**: Every transaction is immutably recorded on the blockchain, providing transparent, tamper-proof audit trails.
 - **Scalable & Secure**: Robust technology designed to grow with your business while safeguarding your data.
@@ -46,7 +46,7 @@ This empowers our clients to manage and verify assets with trust, transparency, 
 ---
 
 ## 🏢 Our Strategic Affiliation with AcmeWerx
-CryptoVersus is a wholly commercial subsidiary of **AcmeWerx**, a diversified technology enterprise. AcmeWerx started as an intellectual property holding company in October 2018 (patent US9069626B2) and uses its UnsterWerx platform—based on Dr. Whetsel’s Trusted Client-Centric Application Architecture (TC2A2)—to enable secure data exchange. 
+CryptoVersus is a wholly commercial subsidiary of **AcmeWerx**, a diversified technology enterprise. AcmeWerx began as an intellectual property holding company in October 2018—protecting innovations such as patent [US9069626B2](https://patentimages.storage.googleapis.com/78/dc/6b/02571988bca951/US9069626.pdf). Based on Dr. Whetsel’s Trusted Client-Centric Application Architecture (TC2A2), the UnsterWerx platform enables secure data exchange by converting disparate data into a universal dataset for seamless sharing and manipulation.
 
 > **Important:** AcmeWerx, not CryptoVersus, handles government-approved services and compliance. CryptoVersus operates exclusively in the commercial space.
 
