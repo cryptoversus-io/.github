@@ -107,7 +107,7 @@ Through our affiliation with AcmeWerx, we work with a network of trusted partner
   <tr>
     <td><strong>GINKGO-AI</strong></td>
     <td>
-      <a href="https://www.ginkgo.bio/platform">
+      <a href="https://ginkgo-ai.com/">
         <img src="https://github.com/user-attachments/assets/b408aae1-20e1-4a96-9b08-cc7b53d9cd3e" alt="GINKGO-AI Logo" width="150"/>
       </a>
     </td>
