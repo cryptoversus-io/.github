@@ -24,22 +24,44 @@ jobs:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           script: |
             const discussion = context.payload.discussion;
-            const response = await github.rest.issues.create({
+            const issue = await github.rest.issues.create({
               owner: context.repo.owner,
               repo: context.repo.repo,
               title: `[Discussion] ${discussion.title}`,
               body: `### Discussion Linked:\n[${discussion.title}](${discussion.html_url})\n\n**Category:** ${discussion.category.name}\n\n**Summary:**\n${discussion.body}`,
               labels: ["discussion-tracking", discussion.category.name]
             });
-            console.log(`Created Issue: ${response.data.html_url}`);
+            console.log(`Created Issue: ${issue.data.html_url}`);
+            console.log(`Issue ID: ${issue.data.node_id}`);
 
-      - name: Assign Issue to Project Board
-        if: env.MATCH == 'true'
-        uses: actions/add-to-project@v1
+            // Store Issue Node ID for next step
+            console.log(`::set-output name=issue_id::${issue.data.node_id}`);
+
+  add_to_project:
+    needs: create_issue
+    runs-on: ubuntu-latest
+    steps:
+      - name: Add Issue to Project Board
+        uses: actions/github-script@v6
         with:
-          project-url: "https://github.com/orgs/cryptoversus-io/projects/3/"
           github-token: ${{ secrets.GITHUB_TOKEN }}
-          content-id: ${{ github.event.issue.node_id }}
+          script: |
+            const query = `
+            mutation($projectId: ID!, $contentId: ID!) {
+              addProjectV2ItemById(input: { projectId: $projectId, contentId: $contentId }) {
+                item {
+                  id
+                }
+              }
+            }`;
+            
+            const variables = {
+              projectId: "YOUR_PROJECT_BOARD_ID",
+              contentId: "${{ needs.create_issue.outputs.issue_id }}"
+            };
+
+            await github.graphql(query, variables);
+            console.log("Added Issue to Project Board");
 
   auto_close:
     runs-on: ubuntu-latest
