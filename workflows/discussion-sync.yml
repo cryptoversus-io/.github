@@ -56,7 +56,7 @@ jobs:
             }`;
             
             const variables = {
-              projectId: "YOUR_PROJECT_BOARD_ID",
+              projectId: "PVT_kwDOCLSZrs4AYwNP",
               contentId: "${{ needs.create_issue.outputs.issue_id }}"
             };
 
