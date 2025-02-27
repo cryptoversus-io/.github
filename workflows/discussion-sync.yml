@@ -1,0 +1,70 @@
+name: Sync Discussions to Project Board
+on:
+  discussion:
+    types: [created, edited, answered]
+
+jobs:
+  create_issue:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check Discussion Category
+        id: category
+        run: |
+          CATEGORY="${{ github.event.discussion.category.name }}"
+          if [[ "$CATEGORY" =~ ^(Blocked|Client-Resource|PunchList|In Progress|Review)$ ]]; then
+            echo "MATCH=true" >> $GITHUB_ENV
+          else
+            echo "MATCH=false" >> $GITHUB_ENV
+          fi
+
+      - name: Create Issue for Matching Discussions
+        if: env.MATCH == 'true'
+        uses: actions/github-script@v6
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          script: |
+            const discussion = context.payload.discussion;
+            const response = await github.rest.issues.create({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              title: `[Discussion] ${discussion.title}`,
+              body: `### Discussion Linked:\n[${discussion.title}](${discussion.html_url})\n\n**Category:** ${discussion.category.name}\n\n**Summary:**\n${discussion.body}`,
+              labels: ["discussion-tracking", discussion.category.name]
+            });
+            console.log(`Created Issue: ${response.data.html_url}`);
+
+      - name: Assign Issue to Project Board
+        if: env.MATCH == 'true'
+        uses: actions/add-to-project@v1
+        with:
+          project-url: "https://github.com/orgs/cryptoversus-io/projects/3/"
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          content-id: ${{ github.event.issue.node_id }}
+
+  auto_close:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Close Issue When Discussion is Answered
+        if: github.event.action == 'answered'
+        uses: actions/github-script@v6
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          script: |
+            const discussion = context.payload.discussion;
+            const issues = await github.rest.issues.listForRepo({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              labels: ["discussion-tracking"],
+            });
+
+            for (const issue of issues.data) {
+              if (issue.body.includes(discussion.html_url)) {
+                await github.rest.issues.update({
+                  owner: context.repo.owner,
+                  repo: context.repo.repo,
+                  issue_number: issue.number,
+                  state: "closed"
+                });
+                console.log(`Closed Issue: ${issue.html_url}`);
+              }
+            }
