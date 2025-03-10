@@ -112,6 +112,14 @@ Through our affiliation with AcmeWerx, we work with a network of trusted partner
       </a>
     </td>
   </tr>
+    <tr>
+    <td><strong>KOVE</strong></td>
+    <td>
+      <a href="https://kove.com/">
+<img src="https://github.com/user-attachments/assets/efc0d30d-ea79-4119-bc2c-11aaa0e9996e" alt="KOVE Logo" width="150"/>
+      </a>
+    </td>
+  </tr>
 </table>
 
 </div>
