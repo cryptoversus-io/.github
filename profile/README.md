@@ -1,7 +1,8 @@
 <p align="center">
   <a href="https://cryptoversus.io">
-    <img src="https://storage.builderall.com//franquias/2/7304564/editor-html/12603172.svg" alt="CryptoVersus.io Powered by AcmeWerx" width="100%"/>
+<img width="528" height="528" alt="cryptoversus-reboot_icon" src="https://github.com/user-attachments/assets/ccdba836-7c8d-42f2-a8f1-15b760c7bc3a" />
   </a>
+
 </p>
 
 # CryptoVersus
